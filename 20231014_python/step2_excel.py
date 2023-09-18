@@ -12,3 +12,6 @@ wb.remove(wb['Sheet'])
 
 # 保存する
 wb.save('sales.xlsx')
+
+# 閉じる
+wb.close()

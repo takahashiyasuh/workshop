@@ -56,3 +56,6 @@ for index, (id, goods, price, buy_date) in enumerate(rows):
 
 # ワークブックを保存
 wb.save('sales.xlsx')
+
+# 閉じる
+wb.close()

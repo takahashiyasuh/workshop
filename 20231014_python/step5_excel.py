@@ -143,3 +143,6 @@ ws.add_chart(chart)
 
 # ワークブックを保存
 wb.save('sales.xlsx')
+
+# 閉じる
+wb.close()

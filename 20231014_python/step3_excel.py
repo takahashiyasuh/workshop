@@ -72,3 +72,6 @@ for index, (key, value) in enumerate(dict.items()):
 
 # ワークブックを保存
 wb.save('sales.xlsx')
+
+# 閉じる
+wb.close()
